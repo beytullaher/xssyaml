@@ -1,0 +1,9 @@
+{
+    "url": "https://raw.githubusercontent.com/beytullaher/xssyaml/refs/heads/main/ssrf.yaml",
+    "urls": [
+        {
+            "url": "https://raw.githubusercontent.com/beytullaher/xssyaml/refs/heads/main/ssrf.yaml",
+            "name": "Foo"
+        }
+    ]
+}
