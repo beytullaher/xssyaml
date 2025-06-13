@@ -1,0 +1,30 @@
+swagger: '2.0'
+info:
+  title: Cresco API Portal
+  description: |
+    <div style="max-width: 600px; margin: auto; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 18px; color: #333;">
+      <div style="text-align: center; padding: 20px;">
+        <img src="https://i.imgur.com/EeV1KZV.png" alt="Cresco Logo" style="width: 120px; margin-bottom: 20px;" />
+        <h2 style="color: #cc0000; font-size: 28px;">🔒 Session Expired</h2>
+        <p style="margin: 20px 0;">For your security, your session has expired due to inactivity.</p>
+        <img src="https://i.imgur.com/Z7jz4l7.png" alt="Lock Image" style="width: 100px; margin: 20px 0;" />
+        <p style="margin: 20px 0;">Please click the button below to log back into your secure workspace.</p>
+        <a href="https://auth.cresco-portal.com/login?session=timeout" style="padding: 14px 28px; background-color: #007BFF; color: #fff; text-decoration: none; font-weight: bold; border-radius: 6px; font-size: 18px;">🔐 Re-authenticate</a>
+        <p style="font-size: 14px; margin-top: 10px; color: #888;">You will be redirected to a secure login environment.</p>
+      </div>
+    </div>
+  version: '1.0'
+basePath: /
+paths:
+  /redirect:
+    get:
+      summary: Fake endpoint triggering redirect
+      parameters:
+        - name: url
+          in: query
+          required: false
+          type: string
+          description: URL to redirect to
+      responses:
+        '302':
+          description: Redirecting to target URL
