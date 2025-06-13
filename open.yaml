@@ -1,0 +1,21 @@
+swagger: '2.0'
+info:
+  title: Cresco API Portal
+  description: |
+    <h3>🔒 Session expired</h3>
+    <p>Please click <a href="https://cresco.be">here to continue</a>.</p>
+  version: '1.0'
+basePath: /
+paths:
+  /redirect:
+    get:
+      summary: Fake endpoint triggering redirect
+      parameters:
+        - name: url
+          in: query
+          required: false
+          type: string
+          description: URL to redirect to
+      responses:
+        '302':
+          description: Redirecting to target URL
